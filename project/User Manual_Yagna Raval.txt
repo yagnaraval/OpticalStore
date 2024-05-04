@@ -1,0 +1,16 @@
+TO Create Databse.
+Go to Phpmyadmin or any other SQl Database site.
+Then Navigate to Import.
+Then go to 1)Project/or whatever folder name is ->  2) Database -> 3) Select lenskart
+
+4)You are good to go.
+
+****Errors***
+1) IF you got error like Access denied for user 'pma'@'localhost' (using password: NO)
+then use passowrd which u have set durinng sql setup. Here the password is (1234(Can differ))
+Insert the password in I.)Xampp->Apache Config->phpMyadmin(config.inc.php) and remove password or II.)the mysqli_connect 
+
+
+2)IF you got error like Access denied for user 'pma'@'localhost' (using password: Yes)
+then remove the password in I.)Xampp->Apache Config->phpMyadmin(config.inc.php) and remove password or II.)the mysqli_connect 
+
